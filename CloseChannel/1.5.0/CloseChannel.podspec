@@ -52,6 +52,9 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/close-dev-team/mobile-close-channel-sdk-binary-ios.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = 'CloseChannel.xcframework'
 
+  spec.dependency 'Socket.IO-Client-Swift', '~>16.0'
+  spec.dependency 'SwiftSocket', '~>2.0'
+  spec.dependency 'Starscream', '~>4.0'
   spec.dependency 'CryptoSwift', '~>1.4'
   spec.dependency 'SwiftySound', '~>1.2'
   spec.dependency 'SQLite.swift', '0.12.2'
