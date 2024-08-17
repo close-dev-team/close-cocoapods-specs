@@ -53,13 +53,11 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'CloseChannel.xcframework'
 
   spec.dependency 'Socket.IO-Client-Swift', '~>16.0'
-  spec.dependency 'SwiftSocket', '~>2.0'
   spec.dependency 'Starscream', '~>4.0'
   spec.dependency 'CryptoSwift', '~>1.4'
   spec.dependency 'SwiftySound', '~>1.2'
   spec.dependency 'SQLite.swift', '0.12.2'
   spec.dependency 'SnapKit', '~>5.0'
-  spec.dependency 'SwiftSocket', '~>2.0'
   spec.dependency 'Device' #
   spec.dependency 'Fuzi', '~>3.1'
   spec.dependency 'SwiftyRSA', '~>1.6'
