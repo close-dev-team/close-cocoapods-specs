@@ -59,6 +59,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'SnapKit', '~>5.7'
   spec.dependency 'Device' #
   spec.dependency 'Fuzi', '~>3.1'
-  spec.dependency 'SwiftyRSA', '~>1.8'
+  spec.dependency 'SwiftyRSA', '~>1.7'
 
 end
